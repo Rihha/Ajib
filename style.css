@@ -115,6 +115,7 @@ header {
   color: rgb(73, 72, 72);
   font-size: 2rem;
   margin-top: 3rem;
+  letter-spacing: 1rem;
 }
 .main p {
   color: white;
@@ -141,6 +142,7 @@ header {
   /* max-width: 75%; */
   /* margin: auto; */
   padding: 5rem 5.5%;
+  background-color: rgb(250, 249, 249);
 }
 .wrapper > p,
 .wrapper > h1 {
@@ -151,7 +153,7 @@ header {
   font-size: 1.5rem;
 }
 .wrapper > h1 {
-  /* letter-spacing: 1rem; */
+  letter-spacing: 1rem;
   font-size: 2.5rem;
   color: rgb(73, 72, 72);
 }
@@ -203,17 +205,7 @@ header {
 .faq.active {
   border: none;
 }
-.Proff {
-  background-color: rgb(208, 207, 207);
-}
-.main2 {
-  align-items: center;
-  text-align: center;
-}
-.main2 h1 {
-  color: rgb(73, 72, 72);
-  font-size: 2.5rem;
-}
+
 .Tech {
   background: #fbfcfd;
   background: linear-gradient(to right, #f7f8f8, #95a2ad);
@@ -227,6 +219,7 @@ header {
 .main3 h1 {
   color: rgb(73, 72, 72);
   font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 .wrap {
   background-color: rgb(223, 241, 248);
@@ -268,6 +261,7 @@ header {
 }
 .Cert {
   padding: 5rem 5.5%;
+  background-color: rgb(250, 249, 249);
 }
 .main4 {
   align-items: center;
@@ -277,6 +271,7 @@ header {
 .main4 h1 {
   color: rgb(73, 72, 72);
   font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 .one {
   background-color: rgb(254, 227, 230);
@@ -340,6 +335,7 @@ header {
 }
 
 .head h1 {
+  letter-spacing: 1rem;
   color: rgb(73, 72, 72);
   font-size: 2.5rem;
   align-items: center;
