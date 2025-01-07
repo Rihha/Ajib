@@ -56,12 +56,55 @@
         standards like NIST, ISO 27001, and PCI DSS.
       </p>
     </section>
-    <!-- 
-    <section class="Proff">
-      <div class="main2">
-        <h1>PROFFESSIONAL EXPERIENCE</h1>
+
+    <section class="wrapper">
+      <h1>PROFFESSIONAL EXPERIENCE</h1>
+
+      <div class="faq active">
+        <button class="accordin">
+          <h2>Sr SOC Analyst, Akkodis (Aug 2023 - Present)</h2>
+          <i class="bx bx-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Conduct real-time analysis of security incidents through SIEM tools
+            (Splunk, QRadar) to detect malicious activities and initiate
+            containment, eradication, and recovery. Led initiatives improving
+            detection accuracy by 25%.
+          </p>
+        </div>
       </div>
-    </section> -->
+
+      <div class="faq active">
+        <button class="accordin">
+          <h2>
+            Cybersecurity Program Manager,FortuneBrands(Sep 2022 - Aug 2023)
+          </h2>
+          <i class="bx bx-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Cybersecurity programs, streamlining incident response and
+            regulatory compliance. Developed automation scripts to improve
+            efficiency by 30%.
+          </p>
+        </div>
+      </div>
+      <div class="faq active">
+        <button class="accordin">
+          <h2>Senior SOC Analyst, Mercedes-Benz USA (Jan 2021 - Aug 2022)</h2>
+          <i class="bx bx-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Enhanced defensive capabilities through red team/blue team
+            exercises, improving detection rates by 40%. Managed global
+            responses to security events aligned with ISO 27001 and NIST
+            standards.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <section class="Tech">
       <div class="main3">
@@ -133,5 +176,22 @@
         <i class="bx bx-copyright"></i>2024 Ola Ajibola. All Rights Reserved.
       </p>
     </section>
+    <script>
+      var acc = document.getElementsByClassName("accordin");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
