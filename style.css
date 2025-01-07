@@ -74,14 +74,15 @@ header {
   color: #ffffff;
   position: relative;
 }
-.navLink a:hover {
+/* .navLink a:hover {
   background-color: rgb(200, 94, 106);
-}
+} */
 .down {
-  /* background-color: #186dff; */
-  /* box-shadow: 0 1rem 1rem 1rem #186dff; */
   border-radius: 1rem;
   padding: 1rem 1rem;
+}
+.down:hover {
+  background-color: #1167fa;
 }
 .navIcons {
   font-size: 3rem;
