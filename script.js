@@ -9,13 +9,18 @@ navIcons.addEventListener('click',()=>{
 })
 
 
-// window.onscroll=()=>{
-//     if(window.scrollY > 60){
-//         navBar.style.backgroundColor='black';
-//     }
-// }
-// let search = document.querySelector("#search")
-// let input = document.querySelector("#input")
-// search.addEventListener('click',()=>{
-//     input.classList.toggle('active')
-// })
+var acc = document.getElementsByClassName("accordin");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
